@@ -1,0 +1,27 @@
+---
+name: POE-Component-Client-UserAgent
+version: '0.08'
+abstract: 'LWP and LWP::Parallel based POE component.'
+author:
+  - 'Rocco Caputo <rcaputo@cpan.org>'
+license: unknown
+build_requires:
+  ExtUtils::MakeMaker: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 7.1, CPAN::Meta::Converter version 2.150005'
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  LWP::Parallel: '2.51'
+  POE: '0.31'
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: http://github.com/rcaputo/poe-component-client-useragent
+x_serialization_backend: 'CPAN::Meta::YAML version 0.012'
